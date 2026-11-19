@@ -1,0 +1,4 @@
+/images/
+/masks/
+__pycache__/
+*.py[cod]

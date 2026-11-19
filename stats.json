@@ -1,0 +1,26 @@
+{
+  "train": {
+    "videos": 79,
+    "frames": 18557,
+    "tracks": 720,
+    "expressions": 702,
+    "instance_frames": 170581,
+    "referred_instance_frames": 167580
+  },
+  "test": {
+    "videos": 29,
+    "frames": 5809,
+    "tracks": 194,
+    "expressions": 189,
+    "instance_frames": 39468,
+    "referred_instance_frames": 38807
+  },
+  "all": {
+    "videos": 108,
+    "frames": 24366,
+    "tracks": 914,
+    "expressions": 891,
+    "instance_frames": 210049,
+    "referred_instance_frames": 206387
+  }
+}
