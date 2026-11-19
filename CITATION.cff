@@ -1,0 +1,37 @@
+cff-version: 1.2.0
+message: "If you use RS-RVOS Bench, please cite the CroBIM-V article below and acknowledge SAT-MTB as described in the README."
+type: dataset
+title: RS-RVOS Bench
+version: "1.0"
+repository-code: "https://github.com/JHC626/RS-RVOS-Bench"
+authors:
+  - given-names: Haochen
+    family-names: Jiang
+  - given-names: Yuzhe
+    family-names: Sun
+  - given-names: Zhe
+    family-names: Dong
+  - given-names: Tianzhu
+    family-names: Liu
+  - given-names: Yanfeng
+    family-names: Gu
+preferred-citation:
+  type: article
+  title: "CroBIM-V: Memory-Quality Controlled Remote Sensing Referring Video Object Segmentation"
+  authors:
+    - given-names: Haochen
+      family-names: Jiang
+    - given-names: Yuzhe
+      family-names: Sun
+    - given-names: Zhe
+      family-names: Dong
+    - given-names: Tianzhu
+      family-names: Liu
+    - given-names: Yanfeng
+      family-names: Gu
+  journal: IEEE Transactions on Geoscience and Remote Sensing
+  year: 2026
+  volume: "64"
+  start: 1
+  end: 16
+  doi: "10.1109/TGRS.2026.3678310"

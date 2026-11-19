@@ -82,4 +82,16 @@ Please cite the RS-RVOS Bench paper and the upstream SAT-MTB dataset.
 
 Haochen Jiang et al., *CroBIM-V: Memory-Quality Controlled Remote Sensing Referring Video Object Segmentation*, IEEE Transactions on Geoscience and Remote Sensing, 2026. [IEEE Xplore](https://ieeexplore.ieee.org/document/11457059) · [Paper DOI](https://doi.org/10.1109/TGRS.2026.3678310)
 
+```bibtex
+@article{jiang2026crobimv,
+  author  = {Jiang, Haochen and Sun, Yuzhe and Dong, Zhe and Liu, Tianzhu and Gu, Yanfeng},
+  title   = {{CroBIM-V}: Memory-Quality Controlled Remote Sensing Referring Video Object Segmentation},
+  journal = {IEEE Transactions on Geoscience and Remote Sensing},
+  year    = {2026},
+  volume  = {64},
+  pages   = {1--16},
+  doi     = {10.1109/TGRS.2026.3678310}
+}
+```
+
 Shengyang Li et al., *A Multitask Benchmark Dataset for Satellite Video: Object Detection, Tracking, and Segmentation*, IEEE Transactions on Geoscience and Remote Sensing, 2023. [SAT-MTB dataset page](https://csu.cas.cn/gb/kybm/sjlyzx/gcxx_sjj/sjj_wxxl/202211/t20221121_6551405.html) · [Paper DOI](https://doi.org/10.1109/TGRS.2023.3278075)
