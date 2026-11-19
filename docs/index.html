@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>RS-RVOS Bench · Remote Sensing Referring Video Object Segmentation Dataset</title>
+  <meta name="description" content="A satellite video dataset for referring video object segmentation. Track a target described in the first frame and segment it across a SAT-MTB video. Explore and download the CroBIM-V benchmark annotations.">
+  <link rel="canonical" href="https://jhc626.github.io/RS-RVOS-Bench/">
+  <link rel="alternate" hreflang="en" href="https://jhc626.github.io/RS-RVOS-Bench/">
+  <link rel="alternate" hreflang="zh-CN" href="https://jhc626.github.io/RS-RVOS-Bench/zh/">
+  <link rel="alternate" hreflang="x-default" href="https://jhc626.github.io/RS-RVOS-Bench/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="RS-RVOS Bench · Remote Sensing Referring Video Object Segmentation Dataset">
+  <meta property="og:description" content="A satellite video dataset for referring video object segmentation. Track a target described in the first frame and segment it across a SAT-MTB video. Explore and download the CroBIM-V benchmark annotations.">
+  <meta property="og:url" content="https://jhc626.github.io/RS-RVOS-Bench/">
+  <link rel="stylesheet" href="./style.css">
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "@id": "https://jhc626.github.io/RS-RVOS-Bench/#dataset",
+  "name": "RS-RVOS Bench",
+  "alternateName": [
+    "Remote Sensing Referring Video Object Segmentation Benchmark",
+    "遥感视频指代分割数据集"
+  ],
+  "description": "A satellite video dataset for referring video object segmentation. Track a target described in the first frame and segment it across a SAT-MTB video. Explore and download the CroBIM-V benchmark annotations.",
+  "version": "1.0",
+  "url": "https://jhc626.github.io/RS-RVOS-Bench/",
+  "sameAs": "https://github.com/JHC626/RS-RVOS-Bench/releases/tag/v1.0",
+  "citation": "https://doi.org/10.1109/TGRS.2026.3678310",
+  "isBasedOn": "https://csu.cas.cn/gb/kybm/sjlyzx/gcxx_sjj/sjj_wxxl/202211/t20221121_6551405.html",
+  "creator": [
+    {
+      "@type": "Person",
+      "name": "Haochen Jiang"
+    },
+    {
+      "@type": "Person",
+      "name": "Yuzhe Sun"
+    },
+    {
+      "@type": "Person",
+      "name": "Zhe Dong"
+    },
+    {
+      "@type": "Person",
+      "name": "Tianzhu Liu"
+    },
+    {
+      "@type": "Person",
+      "name": "Yanfeng Gu"
+    }
+  ],
+  "keywords": [
+    "remote sensing",
+    "referring video object segmentation",
+    "satellite video dataset",
+    "遥感视频指代分割"
+  ],
+  "distribution": {
+    "@type": "DataDownload",
+    "name": "RS-RVOS Bench v1.0",
+    "contentUrl": "https://github.com/JHC626/RS-RVOS-Bench/releases/download/v1.0/RS-RVOS-Bench-v1.0.zip",
+    "encodingFormat": "application/zip"
+  }
+}
+  </script>
+</head>
+<body>
+  <header class="bar"><div class="wrap bar-inner">
+    <a class="brand" href="./">RS-RVOS Bench</a>
+    <nav aria-label="Project links"><a href="https://github.com/JHC626/RS-RVOS-Bench">GitHub</a><span class="divider"></span><a href="./" lang="en" hreflang="en" aria-current="page">English</a><a href="./zh/" lang="zh-CN" hreflang="zh-CN">中文</a></nav>
+  </div></header>
+  <main class="wrap">
+    <div class="hero">
+      <div><p class="eyebrow">CroBIM-V <span>/</span> IEEE TGRS 2026</p>
+        <h1>RS-RVOS Bench</h1>
+        <h2 class="subtitle">Remote sensing referring video object segmentation dataset</h2>
+        <p class="intro">Given a satellite video and a description of an object in its first frame, segment that same object in each frame where it is visible. RS-RVOS Bench pairs referring expressions with instance masks on SAT-MTB sequences.</p>
+        <div class="actions"><a class="button" href="https://github.com/JHC626/RS-RVOS-Bench/releases/download/v1.0/RS-RVOS-Bench-v1.0.zip">Download v1.0 <span aria-hidden="true">↓</span></a><a href="https://doi.org/10.1109/TGRS.2026.3678310">Read the paper ↗</a></div>
+      </div>
+      <figure><div class="plate"><div class="plate-head"><b>airplane_51</b><span>INSTANCE 01</span></div>
+        <img src="./airplane-51.png" width="840" height="450" alt="Five numbered masks of aircraft 1 in a shared coordinate system, moving from the lower right to the upper left of the crop.">
+        <div class="query" lang="en">“wide bodied aircraft at bottom-center”</div></div>
+        <figcaption>Original referring expression and five target masks from the same clip, overlaid in a shared crop. Labels give the frame IDs.</figcaption></figure>
+    </div>
+    <section class="stats" aria-label="Release statistics"><div><strong>108</strong><span>Satellite videos</span></div><div><strong>24,366</strong><span>Annotated frames</span></div><div><strong>891</strong><span>Referring expressions</span></div><div><strong>11</strong><span>Object classes</span></div></section>
+    <div class="columns">
+      <section><h2>Use the dataset</h2>
+        <ol><li>Download the <a href="https://github.com/JHC626/RS-RVOS-Bench/releases/download/v1.0/RS-RVOS-Bench-v1.0.zip">v1.0 annotation ZIP</a> and extract it. It includes instance masks, expressions, split lists and verification scripts.</li>
+        <li>Get the aircraft and ship imagery from the <a href="https://csu.cas.cn/gb/kybm/sjlyzx/gcxx_sjj/sjj_wxxl/202211/t20221121_6551405.html">official SAT-MTB download page</a>.</li>
+        <li>Follow the <a href="https://github.com/JHC626/RS-RVOS-Bench#quick-start">quick start</a> to verify the annotations and match the source frames by hash.</li></ol>
+      </section>
+      <section><h2>Train and test splits</h2>
+        <table><thead><tr><th scope="col">v1.0 split</th><th scope="col">Videos</th><th scope="col">Expressions</th></tr></thead><tbody>
+        <tr><th scope="row">Train</th><td>79</td><td>702</td></tr><tr><th scope="row">Test</th><td>29</td><td>189</td></tr></tbody></table>
+        <p>The paper reports 111 sequence entries. The public v1.0 release contains 108 videos and uses the fixed split above. <a href="https://github.com/JHC626/RS-RVOS-Bench#relationship-to-the-paper">Curation details ↗</a></p>
+      </section>
+    </div>
+    <section class="citation"><h2>Cite RS-RVOS Bench</h2>
+      <p>Haochen Jiang, Yuzhe Sun, Zhe Dong, Tianzhu Liu, Yanfeng Gu.<br><a href="https://doi.org/10.1109/TGRS.2026.3678310" lang="en">CroBIM-V: Memory-Quality Controlled Remote Sensing Referring Video Object Segmentation.</a><br><i>IEEE Transactions on Geoscience and Remote Sensing</i>, 64, 1–16 (2026).</p>
+      <p><a href="https://github.com/JHC626/RS-RVOS-Bench#citation-and-source-data">BibTeX</a> <span class="dot">·</span> <a href="https://doi.org/10.1109/TGRS.2023.3278075">SAT-MTB source citation</a></p>
+    </section>
+  </main>
+</body>
+</html>

@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>RS-RVOS Bench · 遥感视频指代分割数据集</title>
+  <meta name="description" content="RS-RVOS Bench 是 CroBIM-V 论文提出的遥感视频指代分割数据集。用首帧文字描述指定卫星视频中的目标，并在后续帧中分割同一实例。下载 v1.0 标注、逐帧掩码与固定训练测试划分。">
+  <link rel="canonical" href="https://jhc626.github.io/RS-RVOS-Bench/zh/">
+  <link rel="alternate" hreflang="en" href="https://jhc626.github.io/RS-RVOS-Bench/">
+  <link rel="alternate" hreflang="zh-CN" href="https://jhc626.github.io/RS-RVOS-Bench/zh/">
+  <link rel="alternate" hreflang="x-default" href="https://jhc626.github.io/RS-RVOS-Bench/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="RS-RVOS Bench · 遥感视频指代分割数据集">
+  <meta property="og:description" content="RS-RVOS Bench 是 CroBIM-V 论文提出的遥感视频指代分割数据集。用首帧文字描述指定卫星视频中的目标，并在后续帧中分割同一实例。下载 v1.0 标注、逐帧掩码与固定训练测试划分。">
+  <meta property="og:url" content="https://jhc626.github.io/RS-RVOS-Bench/zh/">
+  <link rel="stylesheet" href="../style.css">
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "@id": "https://jhc626.github.io/RS-RVOS-Bench/#dataset",
+  "name": "RS-RVOS Bench",
+  "alternateName": [
+    "Remote Sensing Referring Video Object Segmentation Benchmark",
+    "遥感视频指代分割数据集"
+  ],
+  "description": "RS-RVOS Bench 是 CroBIM-V 论文提出的遥感视频指代分割数据集。用首帧文字描述指定卫星视频中的目标，并在后续帧中分割同一实例。下载 v1.0 标注、逐帧掩码与固定训练测试划分。",
+  "version": "1.0",
+  "url": "https://jhc626.github.io/RS-RVOS-Bench/",
+  "sameAs": "https://github.com/JHC626/RS-RVOS-Bench/releases/tag/v1.0",
+  "citation": "https://doi.org/10.1109/TGRS.2026.3678310",
+  "isBasedOn": "https://csu.cas.cn/gb/kybm/sjlyzx/gcxx_sjj/sjj_wxxl/202211/t20221121_6551405.html",
+  "creator": [
+    {
+      "@type": "Person",
+      "name": "Haochen Jiang"
+    },
+    {
+      "@type": "Person",
+      "name": "Yuzhe Sun"
+    },
+    {
+      "@type": "Person",
+      "name": "Zhe Dong"
+    },
+    {
+      "@type": "Person",
+      "name": "Tianzhu Liu"
+    },
+    {
+      "@type": "Person",
+      "name": "Yanfeng Gu"
+    }
+  ],
+  "keywords": [
+    "remote sensing",
+    "referring video object segmentation",
+    "satellite video dataset",
+    "遥感视频指代分割"
+  ],
+  "distribution": {
+    "@type": "DataDownload",
+    "name": "RS-RVOS Bench v1.0",
+    "contentUrl": "https://github.com/JHC626/RS-RVOS-Bench/releases/download/v1.0/RS-RVOS-Bench-v1.0.zip",
+    "encodingFormat": "application/zip"
+  }
+}
+  </script>
+</head>
+<body>
+  <header class="bar"><div class="wrap bar-inner">
+    <a class="brand" href="./">RS-RVOS Bench</a>
+    <nav aria-label="项目导航"><a href="https://github.com/JHC626/RS-RVOS-Bench">GitHub</a><span class="divider"></span><a href="../" lang="en" hreflang="en">English</a><a href="../zh/" lang="zh-CN" hreflang="zh-CN" aria-current="page">中文</a></nav>
+  </div></header>
+  <main class="wrap">
+    <div class="hero">
+      <div><p class="eyebrow">CroBIM-V <span>/</span> IEEE TGRS 2026</p>
+        <h1>RS-RVOS Bench</h1>
+        <h2 class="subtitle">遥感视频指代分割数据集</h2>
+        <p class="intro">给定一段卫星视频和一句描述首帧目标的话，在目标可见的每一帧中分割同一实例。RS-RVOS Bench 为 SAT-MTB 视频提供指代表达、目标编号和逐帧实例掩码。</p>
+        <div class="actions"><a class="button" href="https://github.com/JHC626/RS-RVOS-Bench/releases/download/v1.0/RS-RVOS-Bench-v1.0.zip">下载 v1.0 标注包 <span aria-hidden="true">↓</span></a><a href="https://doi.org/10.1109/TGRS.2026.3678310">阅读论文 ↗</a></div>
+      </div>
+      <figure><div class="plate"><div class="plate-head"><b>airplane_51</b><span>实例 01</span></div>
+        <img src="../airplane-51.png" width="840" height="450" alt="五个标有帧号的飞机掩码叠加在同一坐标系中，目标从裁剪区域右下方向左上方移动。">
+        <div class="query" lang="en">“wide bodied aircraft at bottom-center”</div></div>
+        <figcaption>原始指代表达及同一段视频的五帧目标掩码。掩码叠加在同一裁剪区域内，数字为帧编号。</figcaption></figure>
+    </div>
+    <section class="stats" aria-label="发布版统计"><div><strong>108</strong><span>卫星视频</span></div><div><strong>24,366</strong><span>标注帧</span></div><div><strong>891</strong><span>指代表达</span></div><div><strong>11</strong><span>目标类别</span></div></section>
+    <div class="columns">
+      <section><h2>使用数据集</h2>
+        <ol><li>下载并解压 <a href="https://github.com/JHC626/RS-RVOS-Bench/releases/download/v1.0/RS-RVOS-Bench-v1.0.zip">v1.0 标注包</a>，其中包含实例掩码、指代表达、训练测试清单和校验脚本。</li>
+        <li>从 <a href="https://csu.cas.cn/gb/kybm/sjlyzx/gcxx_sjj/sjj_wxxl/202211/t20221121_6551405.html">SAT-MTB 官方下载页</a>获取并解压飞机和船舶的原始图像。</li>
+        <li>按<a href="https://github.com/JHC626/RS-RVOS-Bench#quick-start">快速上手说明</a>校验标注，并用哈希值匹配原始帧。</li></ol>
+      </section>
+      <section><h2>训练与测试划分</h2>
+        <table><thead><tr><th scope="col">v1.0 划分</th><th scope="col">视频</th><th scope="col">表达</th></tr></thead><tbody>
+        <tr><th scope="row">训练</th><td>79</td><td>702</td></tr><tr><th scope="row">测试</th><td>29</td><td>189</td></tr></tbody></table>
+        <p>论文报告 111 条视频序列记录。公开 v1.0 收录 108 个视频，采用上表的固定划分。 <a href="https://github.com/JHC626/RS-RVOS-Bench#relationship-to-the-paper">整理说明 ↗</a></p>
+      </section>
+    </div>
+    <section class="citation"><h2>引用 RS-RVOS Bench</h2>
+      <p>Haochen Jiang, Yuzhe Sun, Zhe Dong, Tianzhu Liu, Yanfeng Gu.<br><a href="https://doi.org/10.1109/TGRS.2026.3678310" lang="en">CroBIM-V: Memory-Quality Controlled Remote Sensing Referring Video Object Segmentation.</a><br><i>IEEE Transactions on Geoscience and Remote Sensing</i>, 64, 1–16 (2026).</p>
+      <p><a href="https://github.com/JHC626/RS-RVOS-Bench#citation-and-source-data">BibTeX</a> <span class="dot">·</span> <a href="https://doi.org/10.1109/TGRS.2023.3278075">SAT-MTB 原始数据引用</a></p>
+    </section>
+  </main>
+</body>
+</html>

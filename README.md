@@ -1,5 +1,7 @@
 # RS-RVOS Bench v1.0
 
+[Project page (English)](https://jhc626.github.io/RS-RVOS-Bench/) · [中文项目页](https://jhc626.github.io/RS-RVOS-Bench/zh/)
+
 Satellite-video referring object segmentation annotations for SAT-MTB. Each expression identifies a target visible in the first frame. A target keeps the same instance ID throughout its video. This is a single annotation release with a fixed video-level train/test split. Users supply the SAT-MTB source frames.
 
 | Split | Videos | Frames | Tracks | Expressions | Visible instance-frames |
